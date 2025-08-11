@@ -3,51 +3,88 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>CSS Box Model Practice</title>
+    <title>Cybersecurity Awareness</title>
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="main-header">
-        <h1>Welcome to CSS Box Model Practice</h1>
+        <h1>🛡 Cybersecurity Awareness Hub</h1>
         <nav class="nav-bar">
-            <button class="nav-button">Home</button>
-            <button class="nav-button">About</button>
-            <button class="nav-button">Contact</button>
+            <a href="#home" class="nav-button">Home</a>
+            <a href="#about" class="nav-button">About</a>
+            <a href="#contact" class="nav-button">Contact</a>
         </nav>
     </header>
 
-    <section class="content-section">
-        <h2>About CSS Box Model</h2>
+    <!-- HOME -->
+    <section id="home" class="content-section">
+        <h2>Why Cybersecurity Matters</h2>
         <p>
-        The CSS Box Model is fundamental to understanding layout and spacing on web pages.
-        Each element is represented as a rectangular box including content, padding, borders, and margins.
+            In our hyper-connected world, personal data, finances, and even our identities are under constant threat from cybercriminals. 
+            Cybersecurity is the practice of defending computers, servers, mobile devices, and networks from malicious attacks.
         </p>
         <p>
-        Proper use of the box model allows you to control space between elements, size content, and create visually appealing designs.
+            Threats such as phishing scams, ransomware, and identity theft are more common than ever. 
+            Knowing how to spot these dangers and prevent them is the first step toward keeping yourself safe online.
         </p>
     </section>
 
+    <!-- ABOUT -->
+    <section id="about" class="content-section about-section">
+        <h2>About This Page</h2>
+        <p>
+            This page was built to raise awareness of common cyber threats and to share simple, effective strategies for protecting your 
+            digital life. You don’t have to be a tech expert to practice good cybersecurity — small habits make a big difference.
+        </p>
+        <p>
+            Whether it’s creating strong passwords, enabling two-factor authentication, or learning to recognize suspicious links, 
+            every action you take strengthens your defense against cybercrime.
+        </p>
+    </section>
+
+    <!-- CARD SECTION -->
     <section class="card-section">
         <article class="card">
-        <h3>Box Model Components</h3>
-        <ul>
-            <li><strong>Content:</strong> The actual text, images, or other media inside the box.</li>
-            <li><strong>Padding:</strong> Space between content and border.</li>
-            <li><strong>Border:</strong> Outline around padding (and content).</li>
-            <li><strong>Margin:</strong> Space outside the border, creating distance between elements.</li>
-        </ul>
+            <h3>🔑 Core Cybersecurity Practices</h3>
+            <ul>
+                <li><strong>Strong Passwords:</strong> Use at least 12 characters with symbols, numbers, and mixed case letters.</li>
+                <li><strong>Multi-Factor Authentication:</strong> Add an extra security step to protect your accounts.</li>
+                <li><strong>Software Updates:</strong> Install updates to patch vulnerabilities and improve protection.</li>
+                <li><strong>Secure Networks:</strong> Avoid public Wi-Fi or use a VPN for encryption.</li>
+            </ul>
         </article>
 
         <article class="card">
-        <h3>Styling Tips</h3>
-        <p>Use padding to add breathing room inside elements.</p>
-        <p>Use margin to separate elements from each other.</p>
-        <p>Add borders and background colors to visualize the box edges.</p>
+            <h3>🚨 Common Cyber Threats</h3>
+            <p><strong>Phishing:</strong> Fraudulent emails or messages designed to steal personal information.</p>
+            <p><strong>Malware:</strong> Software that damages, disrupts, or gains unauthorized access to systems.</p>
+            <p><strong>Ransomware:</strong> Malicious programs that lock your files until you pay a ransom.</p>
+        </article>
+
+        <article class="card">
+            <h3>Career Paths</h3>
+            <p>Cybersecurity offers diverse career opportunities, such as:</p>
+            <ul>
+                <li>Security Analyst</li>
+                <li>Penetration Tester</li>
+                <li>Incident Responder</li>
+                <li>Security Architect</li>
+                <li>Chief Information Security Officer (CISO)</li>
+            </ul>
+        </article>
+        <article class="card highlight">
+            <h3>💡 Quick Safety Tip</h3>
+            <p>
+                Always verify the source before clicking on links or downloading attachments — 
+                even if the sender appears familiar.
+            </p>
         </article>
     </section>
 
-    <footer class="main-footer">
-        <p>© 2025 CSS Box Model Practice Assignment</p>
+    <!-- CONTACT -->
+    <footer id="contact" class="main-footer">
+        <p>© 2025 Cybersecurity Awareness Hub | Stay Safe Online 🛡</p>
     </footer>
 </body>
 </html>
